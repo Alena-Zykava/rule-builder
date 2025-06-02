@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const NameWrapper = styled.div`
   display: flex;
@@ -7,11 +7,10 @@ export const NameWrapper = styled.div`
   padding: 10px;
   border: gray solid 1px;
   border-radius: 4px;
-  
   svg {
     cursor: pointer;
-  }  
-`;
+  }
+`
 
 export const ModalWrapper = styled.div`
   position: absolute;
@@ -23,7 +22,7 @@ export const ModalWrapper = styled.div`
   border-radius: 4px;
   background: white;
   padding: 50px;
-`;
+`
 
 export const NewNameWrapper = styled.div`
   display: flex;

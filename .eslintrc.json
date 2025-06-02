@@ -26,6 +26,7 @@
     "prettier"
   ],
   "rules": {
+    "@typescript-eslint/no-unused-expressions": "off"
   },
   "settings": {
     "react": {

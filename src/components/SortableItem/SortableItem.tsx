@@ -1,4 +1,4 @@
-import { useDrag, useDrop } from 'react-dnd'
+import { useDrag, useDrop, DragSourceMonitor } from 'react-dnd'
 import React, { useRef } from 'react'
 import { SortableItemWrapper } from './styled'
 import GroupItem from '../GroupItem'
@@ -73,7 +73,7 @@ const SortableItem = ({ id, label, moveCard, index }: ItemProps) => {
     item: () => {
       return { id, index }
     },
-    collect: (monitor: any) => ({
+    collect: (monitor: DragSourceMonitor) => ({
       isDragging: monitor.isDragging(),
     }),
   })

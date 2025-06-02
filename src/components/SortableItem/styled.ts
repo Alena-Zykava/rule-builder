@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const SortableItemWrapper = styled.div`
   padding: 8px;
@@ -7,4 +7,4 @@ export const SortableItemWrapper = styled.div`
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: grab;
-`;
+`
